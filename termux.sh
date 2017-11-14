@@ -11,7 +11,6 @@ echo "${k}_/      _/_/_/  _/    _/    _/_/_/  _/    _/_/      ";
 echo
 apt install figlet -y
 figlet TERMUX
-
 echo
 apt install zsh nmap nano python python2 php apache wget curl ruby openssh proot php-apache git python2-dev python-dev dhcp -y
 #apt install nmap -y
@@ -45,6 +44,3 @@ echo
 rm -rf termux-sudo install.sh termux.sh
 echo
 figlet FINISH XD
-echo
-echo ":'("
-echo
