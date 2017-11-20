@@ -61,6 +61,6 @@ git clone git://github.com/robbyrussell/oh-my-zsh.git $HOME/.oh-my-zsh --depth 1
 cp $HOME/.oh-my-zsh/templates/zshrc.zsh-template $HOME/.zshrc
 chsh -s zsh
 echo
-exit
+echo figlet KALI LINUX >> /data/data/com.termux/files/usr/etc/zshrc
 echo
 figlet FINISH XD
