@@ -44,8 +44,13 @@ cd
 echo
 rm -rf termux-sudo install.sh termux.sh
 echo
-echo figlet KALI LINUX >> /data/data/com.termux/files/usr/etc/bash.bashrc
-echo " " > /data/data/com.termux/files/usr/etc/motd
+# echo figlet KALI LINUX >> /data/data/com.termux/files/usr/etc/bash.bashrc
+echo
+wget https://raw.githubusercontent.com/tchelospy/PHONE-TOOLS/master/motd
+echo
+cat motd > /data/data/com.termux/files/usr/etc/motd
+echo
+rm modt motd.sh
 echo
 #!/data/data/com.termux/files/usr/bin/bash
 echo
@@ -61,6 +66,6 @@ git clone git://github.com/robbyrussell/oh-my-zsh.git $HOME/.oh-my-zsh --depth 1
 cp $HOME/.oh-my-zsh/templates/zshrc.zsh-template $HOME/.zshrc
 chsh -s zsh
 echo
-echo figlet KALI LINUX >> /data/data/com.termux/files/usr/etc/zshrc
+# echo figlet KALI LINUX >> /data/data/com.termux/files/usr/etc/zshrc
 echo
 figlet FINISH XD
