@@ -4,5 +4,5 @@ Requisitos:
 * Acesso root
 * Função SUDO instalado no Termux.
 # LINKS
-* Tutorial de nstalação do sudo >>> https://goo.gl/Afzj4c
+* Tutorial de instalação do sudo >>> https://goo.gl/Afzj4c
 * App Termux >>> https://termux.com/
